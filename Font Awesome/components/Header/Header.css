@@ -1,0 +1,19 @@
+.header-container {
+    height: 100px;
+    padding: var(--spacing-small);
+   
+}
+.header-counter {
+    margin-left: auto;
+    padding-right: var(--spacing-small);
+    font-weight: bold;
+    cursor: pointer;
+}
+.navigation {
+	z-index: 20;
+	width: 100%;
+	top: 3%;
+	position: absolute;
+	display: flex;
+	align-items: center;
+}

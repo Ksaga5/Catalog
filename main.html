@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale = 1">
+	<title>Shop</title>
+	<link rel="stylesheet" href="css/stayle.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
+	 <link rel="icon" type="image/png" href="img/boot.png">
+	<link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+
+	<!-- TweenMax -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+</head>
+<body>
+
+	<div class="navigation">
+		<div class="logo">
+			<img src="img/logotype.png" alt="" class="logotype">
+		</div>
+
+		<div class="nav-menu">
+			<ul class="menu">
+				<li class="nav-item"><a href="index.html" class="nav-link">Мужчины</a>
+				</li>
+				<li class="nav-item"><a href="index.html" class="nav-link">Женщины</a>
+				</li>
+				<li class="nav-item"><a href="index.html" class="nav-link">Дети</a>
+			</li>
+				
+			</ul>
+		</div>
+
+		<div class="search-block">
+			<div class="searsh">
+				<input type="text" class="search-form" placeholder="Поиск">
+				<a href="#" class="search-btn"><i class="fas fa-search"></i></a>
+			</div>
+		</div>
+
+		<div class="personal-item">
+			<div class="auth">
+				<div class="login">
+					<a href="#" class="auth-link signIn"><i class="fas fa-user-circle"></i>Войти</a>
+				</div>
+				<div class="car">
+					<a href="#" class="auth-link"><i class="fas fa-shopping-cart"></i>Корзина</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="sign-block">
+		<div class="sign">
+			<a href="#" class="exit"><i class="fas fa-times"></i></a>
+			<h4 class="sign-head">Вход</h4>
+
+			<div class="input-data">
+				<input type="text" placeholder="введите логин">
+			</div>
+			<div class="input-data">
+				<input type="password" placeholder="введите пароль">
+			</div>
+			<div class="input-btn">
+				<input type="submit" value="Войти">
+			</div>
+
+			<p class="notReg">Ещё не зарегистрированы?</p>
+			<div class="input-btn notReg-btn">
+				<input type="submit" value="Зарегистрироваться">
+			</div>
+		</div>
+	</div>
+
+	<div class="mobile-navigation">
+		<a href="#" class="burger-link">
+			<span></span>
+		</a>
+
+		<div class="mobile-nav">
+			<ul class="mobile-menu">
+				<li class="menu-item">
+					<a href="#" class="menu-link signInMobile">Войти</a>
+				</li>
+				<li class="menu-item">
+					<a href="index.html" class="menu-link">Мужчины</a>
+				</li>
+				<li class="menu-item">
+					<a href="index.html" class="menu-link">Женщины</a>
+				</li>
+				<li class="menu-item">
+					<a href="index.html" class="menu-link">Дети</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="main-information">
+		<div class="text-inform">
+			<h1 class="animated">POP-UP STORE <strong>NIKE</strong></h1>
+			<p class="tagline">Ходи в них по дому на самоизоляции и будь на стиле</p>
+			<div class="inform-link">
+				
+				<div class="inform-btn shop">Купить сейчас</div>
+			</div>
+		</div>
+
+		<div class="photo-model">
+			<img src="img/model.png" alt="">
+		</div>
+	</div>
+
+	<div class="social">
+		<div class="find">
+			<a class="findStore" href="#"><i class="fas fa-map-marker-alt"></i>Найти магазин</a>
+		</div>
+
+		<div class="social-menu">
+			<h4 class="connect">До открытия осталось:</h4>
+				  <div class="countdown">
+	  	<div class="time-section">
+	  		<span class="count" id="days"></span>
+	  		<span class="units">Дней</span>
+	  	</div>
+	  	<div class="time-section">
+	  		<span class="count" id="hours"></span>
+	  		<span class="units">Часов</span>
+	  	</div>
+	  	<div class="time-section">
+	  		<span class="count" id="minutes"></span>
+	  		<span class="units">Минут</span>
+	  	</div>
+	  	<div class="time-section">
+	  		<span class="count" id="seconds"></span>
+	  		<span class="units">Секунд</span>
+	  	</div>
+	  </div>
+
+			<ul class="social-icon">
+				<li><a href="#" class="social-link"><i class="fab fa-facebook"></i></a></li>
+				<li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="#" class="social-link"><i class="fab fa-pinterest"></i></a></li>
+				<li><a href="#" class="social-link"><i class="fab fa-youtube"></i></a></li>
+				<li><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="maps-block">
+		<div class="maps">
+			<a href="#" class="exit exitMaps"><i class="fas fa-times"></i></a>
+			<iframe class="mapStore" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4657720.921048827!2d82.08341242174897!3d55.24835240385525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42dfe7a5bc07d363%3A0x9b9b0bafda65f223!2sNike%20Store!5e0!3m2!1sru!2sru!4v1589909314638!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js">
+	</script>
+
+</body>
+</html>
